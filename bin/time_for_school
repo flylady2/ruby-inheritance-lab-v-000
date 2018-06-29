@@ -23,3 +23,4 @@ john = Student.new
 john.first_name = "John"
 john.last_name = "Smith"
 john.learn(some_knowledge)
+puts "John just learn this important knowledge: '#{john.knowledge.first}' from Avi"
