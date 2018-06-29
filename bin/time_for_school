@@ -22,4 +22,4 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 john = Student.new
 john.first_name = "John"
 john.last_name = "Smith"
-
+john.learn(some_knowledge)
